@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation{
+  background-color: #ccc;
+  display: flex;  
+  @media (max-width: 350px){
+    background-color: #cfc;
+  }
+  &__item{
+    border: 10px double #000;
+    @media (max-width: 350px){
+      border: 5px double #0c0f5f;
+    }
+  }
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  background: url('../images/Ama_Dablam2.jpg') 0 0 no-repeat;
+}

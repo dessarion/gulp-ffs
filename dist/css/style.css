@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navigation {
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation__item {
+  border: 10px double #000;
+}
+
+.no-webp .container {
+  background: url("../images/Ama_Dablam2.jpg") 0 0 no-repeat; }
+
+.container {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 350px) {
+  .navigation {
+    background-color: #cfc;
+  }
+
+  .navigation__item {
+    border: 5px double #0c0f5f;
+  }
+}
+
+.webp .container { background: url(../images/Ama_Dablam2.webp) 0 0 no-repeat; }
